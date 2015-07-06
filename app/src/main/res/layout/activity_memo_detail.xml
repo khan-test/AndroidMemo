@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.memo.studygroup.app.MemoDetailActivity">
+
+    <EditText
+            android:id="@+id/edtMemo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#AAAAFF"
+            android:layout_gravity=""
+            android:gravity="top"
+            android:layout_above="@+id/llBtnLayout"/>
+
+    <LinearLayout
+            android:id="@+id/llBtnLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true">
+
+        <Button android:id="@+id/btnSave"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="saveMemo"
+                android:text="@string/saveMemo" />
+        <Button android:id="@+id/btnReload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="reloadMemo"
+                android:text="@string/reloadMemo" />
+        <Button android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="deleteMemo"
+                android:text="@string/deleteMemo"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidMemo</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_add_memo">Add Memo</string>
+    <string name="title_activity_memo_detail">MemoDetailActivity</string>
+
+    <string name="saveMemo">Save</string>
+    <string name="reloadMemo">Reload</string>
+    <string name="deleteMemo">Delete</string>
+</resources>
